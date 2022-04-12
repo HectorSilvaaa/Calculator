@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 31, 170);
+}
+#corpo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    width: 300px;
+    height: 400px;
+    background: #4C4D50;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px;
+}
+#view{
+    width: 280px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottons{
+    width: 280px;
+    height: 280px;
+    display: grid;
+    grid-template-areas:"set oi no d"
+                        "qu ci sei m"
+                        "um do tr sm"
+                        "v ze i sb";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#zero{
+    grid-area: ze;
+}
+#one{
+    grid-area: um;
+}
+#two{
+    grid-area: do;
+}
+#three{
+    grid-area: tr;
+}
+#four{
+    grid-area: qu;
+}
+#five{
+    grid-area: ci;
+}
+#six{
+    grid-area: sei;
+}
+#seven{
+    grid-area: set;
+}
+#eigth{
+    grid-area: oi;
+}
+#nine{
+    grid-area: no;
+}
+#divi{
+    grid-area: d;
+    background-color: rgb(223, 156, 32);
+}
+#multi{
+    grid-area: m;
+    background-color: rgb(223, 156, 32);
+}
+#sub{
+    grid-area: sb;
+    background-color: rgb(223, 156, 32);
+}
+#som{
+    grid-area: sm;
+    background-color: rgb(223, 156, 32);
+}
+#equal{
+    grid-area: i;
+    background-color: rgb(223, 156, 32);
+}
+#comma{
+    grid-area: v;
+    background-color: rgb(223, 156, 32);
+}
+.botton{
+    background: #737373;
+    border: 0.5px solid rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+input{
+    padding: 0;
+    font-size: 26px;
+}
+textarea{
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: 0;
+    color: #000000;
+    resize: none;
+    padding: 0;
+}
